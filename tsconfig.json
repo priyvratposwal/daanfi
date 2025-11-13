@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@project/anchor": ["anchor/src"],
+      "@/*": ["./src/*"],
+      "@project/server": ["server/src"]
+    }
+  }
+}
